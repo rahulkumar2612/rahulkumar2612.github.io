@@ -1,0 +1,54 @@
+.buttons-container
+{
+    display: block;
+    text-align: center;
+    position: relative;
+}
+.buttons-top
+{
+    padding: 8px 16px;
+    margin: 10px 12px;
+    color: #000;
+    background-color: #ddd;
+}
+.dot-selected_quiz
+{
+    color: #fff;
+    background-color: #2f4f4f;
+}
+.dot-current_quiz
+{
+    color: #fff;
+    background-color: #006400;
+}
+.dot-current_learn
+{
+    color: #fff;
+    background-color: #a3e3fb;
+}
+.dot-selected_learn
+{
+    color: #fff;
+    background-color: #5bc0de;
+}
+.buttons-top:hover
+{
+    background-color: #bbb;
+}
+.buttons-top:focus
+{
+    outline: none;
+}
+#submitQuiz
+{
+    position: absolute;
+    right: 15%;
+    bottom: 10px;
+    display: none;
+    outline: none;
+}
+input[type="button"]:focus
+{
+    outline: none;
+    background-color: #2f4f4f;
+}
